@@ -4,8 +4,8 @@
 This repository contains the research project titled **"Impact of Central Bank Communications on Inflation"**, which investigates the role of central bank forward guidance and tone in influencing inflation dynamics in India. Leveraging Natural Language Processing (NLP) and econometric modeling, the study offers a novel empirical approach to quantifying the impact of the Reserve Bank of India's (RBI) communications on inflation expectations and outcomes.
 
 ## Project Structure
-- **Data**: A corpus of over 19,000 RBI communications including monetary policy statements, speeches, and press releases.
-- **NLP Modeling**: Custom sentiment indices were derived using FinBERT and Loughran-McDonald dictionary methods.
+- **Data**: A corpus of over 19,000 RBI communications including monetary policy statements, speeches, and press releases for Masked Language Modelling. Over 9K annotated speeches were               used for Supervised finetuning task.
+- **NLP Modeling**: Custom sentiment indices were derived using finetuned FinBERT (MLM + SFT)
 - **Empirical Framework**: An Extended Hybrid New Keynesian Phillips Curve was used to integrate the sentiment indices.
 - **Estimation Technique**: Generalized Method of Moments (GMM) was employed for parameter estimation.
 
